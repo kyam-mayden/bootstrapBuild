@@ -4,9 +4,30 @@ body{
     color:#ffffff;
 }
 
-header{
-    position:;
+header div img{
+    height:50px;
+    width: 50px;
+    margin-top:10px;
 }
+
+header div h4{
+    margin-top:15px;
+}
+
+#all{
+    height: 70px;
+    background-color:#82bfd8;
+    text-align:center;
+}
+
+#all h4{
+ padding-top:15px;
+}
+
+.map{
+    background-color: #62988f;
+}
+
 
 header,
 main {
@@ -24,13 +45,14 @@ nav{
 }
 
 #hamburger{
-    float:right;
+    color:#000000;
     margin-top:20px;
+    font-size:2.5rem;
 }
 
 .cell{
     height:400px;
-    margin: 2px 0;
+    margin: 1.5px 0;
 }
 
 .bulba{
@@ -87,9 +109,18 @@ nav{
     background-color:#ffffff;
 }
 
+.map div{
+    margin-top:100px;
+    text-align:center;
+    background-color:#ffffff;
+    color:#000000;
+}
+
+
+
 .textBox h3,
 .textBox h4{
-    color: #353535;
+    color:#82bfd8;
     text-align: center;
     font-weight: lighter;
     line-height:1.6;
@@ -129,8 +160,70 @@ nav{
 
 .reviewInner h1{
     font-size: 7rem;
+    font-style: italic;
 }
 
 .reviewInner h3{
     margin-top:10px;
+}
+
+.reviewInner a{
+    color:#2b7e71;
+    border: 1px solid #2b7e71;
+    padding: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.reviewInner a:hover{
+    background-color:#2b7e71;
+    color: #ffffff;
+}
+
+.mediaBox{
+    background-color:#ffffff;
+}
+
+.mediaBox h3{
+    color:#000000;
+    text-align:center;
+    margin-top:80px;
+}
+
+.mediaBox h1{
+    color: #999999;
+    text-align:center;
+}
+
+footer{
+    width: 430px;
+}
+
+footer div{
+    background-color: #e4e4e4;
+}
+
+footer div {
+    padding-top: 50px;
+}
+
+footer div h5,
+footer div p {
+    text-align:center;
+    color: #878a8b;
+    line-height:2;
+}
+
+.signature{
+    padding-top: 50px;
+}
+
+/*media queries*/
+
+@media only screen and (min-width: 1200px) {
+    footer,
+    header,
+    main{
+        width:1200px;
+    }
 }
