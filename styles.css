@@ -1,0 +1,136 @@
+body{
+    background-color:#d2d2d2;
+    font-family:Arvo;
+    color:#ffffff;
+}
+
+header{
+    position:;
+}
+
+header,
+main {
+    width:430px;
+}
+
+#logo{
+    background-color:#4fb1a2;
+    height:70px
+}
+
+nav{
+    background-color:#ffffff;
+    height:70px;
+}
+
+#hamburger{
+    float:right;
+    margin-top:20px;
+}
+
+.cell{
+    height:400px;
+    margin: 2px 0;
+}
+
+.bulba{
+    background:url("assets/img.jpeg")  no-repeat center;
+    background-size:cover;
+}
+
+.villa1{
+    background:url("assets/villa1.jpg")  no-repeat center;
+    background-size:cover;
+}
+
+.villa2{
+    background:url("assets/villa2.jpg")  no-repeat center;
+    background-size:cover;
+}
+
+.villa3{
+    background:url("assets/villa3.jpeg")  no-repeat center;
+    background-size:cover;
+}
+
+.villa4{
+    background:url("assets/villa4.jpg")  no-repeat center;
+    background-size:cover;
+}
+
+.titleText{
+    margin-top:100px;
+    background-color:#6d6a6a60;
+    text-align: center;
+    font-weight:lighter;
+}
+
+.imageText{
+    background-color:#6d6a6a60;
+    margin-top:150px;
+    padding:3px;
+    transition: background-color 0.3s;
+}
+
+.imageText:hover{
+    background-color:#6d6a6a;
+}
+
+.imageText h2,
+.imageText h5 {
+    color:#ffffff;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.textBox{
+    background-color:#ffffff;
+}
+
+.textBox h3,
+.textBox h4{
+    color: #353535;
+    text-align: center;
+    font-weight: lighter;
+    line-height:1.6;
+}
+
+.textBox a{
+    font-size:1.8rem;
+    color:#82bfd8;
+    border: 1px solid #82bfd8;
+    text-decoration: none;
+    padding:8px 10px;
+    text-align:center;
+    margin-top:30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.textBox a:hover{
+    background-color:#82bfd8;
+    color:#ffffff;
+}
+
+.review{
+    background-color: #69cfbf;
+}
+
+.reviewInner{
+    border: 2px solid #4fb1a2;
+    height:360px;
+    margin-top:20px;
+    text-align:center;
+}
+
+.reviewInner h4{
+    margin-top:20px;
+    line-height:1.6;
+}
+
+.reviewInner h1{
+    font-size: 7rem;
+}
+
+.reviewInner h3{
+    margin-top:10px;
+}
